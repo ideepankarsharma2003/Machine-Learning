@@ -1,0 +1,407 @@
+GNU Octave, version 6.4.0
+Copyright (C) 2021 The Octave Project Developers.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-w64-mingw32".
+
+Additional information about Octave is available at https://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit https://www.octave.org/get-involved.html
+
+Read https://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+octave:1> cd "E:\Octave\Practice\week 02\exercise"
+error: E:OctavePracticeweek 02exercise: No such file or directory
+octave:2> cd  'E:\Octave\Practice\week 02\exercise'
+octave:3> pwd
+ans = E:\Octave\Practice\week 02\exercise
+octave:4> ls
+ Volume in drive E has no label.
+ Volume Serial Number is F40A-C76D
+
+ Directory of E:\Octave\Practice\week 02\exercise
+
+[.]                                                                      featureNormalize.m
+[..]                                                                     gradientDescent.m
+bdP_oVfPQ7iT_6FXz_O4gg_8e2598a9242e4ab88c127242f96363f1_ex1-octave.zip   gradientDescentMulti.m
+computeCost.m                                                            [lib]
+computeCostMulti.m                                                       normalEqn.m
+ex1.m                                                                    plotData.m
+ex1.pdf                                                                  submit.m
+ex1data1.txt                                                             warmUpExercise.m
+ex1data2.txt
+ex1_multi.m
+              15 File(s)      1,014,609 bytes
+               3 Dir(s)  246,594,301,952 bytes free
+octave:5> warmUpExercise()
+ans =
+
+Diagonal Matrix
+
+   1   0   0   0   0
+   0   1   0   0   0
+   0   0   1   0   0
+   0   0   0   1   0
+   0   0   0   0   1
+
+octave:6> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Login (email address): deepankarsharma2003@gmail.com
+Token: DNsxlHm3Q31hnZoX
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2512  100  1419  100  1093   1392   1072  0:00:01  0:00:01 --:--:--  2519
+warning: findstr is obsolete; use strfind instead
+warning: strmatch is obsolete; use strncmp or strcmp instead
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |   0 /  40 | Your answer is incorrect.
+==         Gradient Descent (for One Variable) |   0 /  50 | Your answer is incorrect.
+==                       Feature Normalization |   0 /   0 | Your answer is incorrect.
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==                            Normal Equations |   0 /   0 | Your answer is incorrect.
+==                                   --------------------------------
+==                                             |  10 / 100 |
+==
+octave:7> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): Y
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2497  100  1405  100  1092   1391   1081  0:00:01  0:00:01 --:--:--  2474
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |   0 /  40 | Your answer is incorrect.
+==         Gradient Descent (for One Variable) |  50 /  50 | Nice work!
+==                       Feature Normalization |   0 /   0 | Your answer is incorrect.
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==                            Normal Equations |   0 /   0 | Your answer is incorrect.
+==                                   --------------------------------
+==                                             |  60 / 100 |
+==
+octave:8> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): Y
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2486  100  1392  100  1094   1737   1365 --:--:-- --:--:-- --:--:--  3099
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |  40 /  40 | Nice work!
+==         Gradient Descent (for One Variable) |  50 /  50 | Nice work!
+==                       Feature Normalization |   0 /   0 | Your answer is incorrect.
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Your answer is incorrect.
+==                            Normal Equations |   0 /   0 | Your answer is incorrect.
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+octave:9> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): Y
+mu =
+
+   10.4768    3.1621    1.7669
+
+sigma =
+
+   4.3714   0.7092   0.2054
+
+X_norm =
+
+  -7.019603  -1.302771  -0.403350
+  -6.280698  -1.113685  -0.335695
+  -5.541792  -0.940636  -0.276466
+  -4.802886  -0.780126  -0.223559
+  -4.063981  -0.629769  -0.175594
+  -3.325075  -0.487853  -0.131611
+  -2.586170  -0.353097  -0.090916
+  -1.847264  -0.224516  -0.052986
+  -1.108358  -0.101332  -0.017420
+  -0.369453   0.017082   0.016102
+   0.369453   0.131242   0.047832
+   1.108358   0.241574   0.077980
+   1.847264   0.348441   0.106719
+   2.586170   0.452150   0.134193
+   3.325075   0.552964   0.160525
+   4.063981   0.651114   0.185820
+   4.802886   0.746801   0.210169
+   5.541792   0.840200   0.233650
+   6.280698   0.931469   0.256332
+   7.019603   1.020747   0.278276
+
+X_norm =
+
+  -1.612479
+  -1.440606
+  -1.269400
+  -1.098713
+  -0.928444
+  -0.758521
+  -0.588890
+  -0.419512
+  -0.250353
+  -0.081387
+   0.087407
+   0.256046
+   0.424545
+   0.592917
+   0.761172
+   0.929321
+   1.097371
+   1.265329
+   1.433202
+   1.600996
+
+
+!! Submission failed: product: nonconformant arguments (op1 is 4x1, op2 is 20x4)
+
+
+Function: computeCostMulti
+FileName: E:\Octave\Practice\week 02\exercise\computeCostMulti.m
+LineNumber: 16
+
+Please correct your code and resubmit.
+octave:10> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): Y
+mu =
+
+   10.4768    3.1621    1.7669
+
+sigma =
+
+   4.3714   0.7092   0.2054
+
+X_norm =
+
+  -7.019603  -1.302771  -0.403350
+  -6.280698  -1.113685  -0.335695
+  -5.541792  -0.940636  -0.276466
+  -4.802886  -0.780126  -0.223559
+  -4.063981  -0.629769  -0.175594
+  -3.325075  -0.487853  -0.131611
+  -2.586170  -0.353097  -0.090916
+  -1.847264  -0.224516  -0.052986
+  -1.108358  -0.101332  -0.017420
+  -0.369453   0.017082   0.016102
+   0.369453   0.131242   0.047832
+   1.108358   0.241574   0.077980
+   1.847264   0.348441   0.106719
+   2.586170   0.452150   0.134193
+   3.325075   0.552964   0.160525
+   4.063981   0.651114   0.185820
+   4.802886   0.746801   0.210169
+   5.541792   0.840200   0.233650
+   6.280698   0.931469   0.256332
+   7.019603   1.020747   0.278276
+
+X_norm =
+
+  -1.612479
+  -1.440606
+  -1.269400
+  -1.098713
+  -0.928444
+  -0.758521
+  -0.588890
+  -0.419512
+  -0.250353
+  -0.081387
+   0.087407
+   0.256046
+   0.424545
+   0.592917
+   0.761172
+   0.929321
+   1.097371
+   1.265329
+   1.433202
+   1.600996
+
+theta =
+
+  -120.8154
+     5.0642
+   -77.7337
+   185.6926
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1050  100   272  100   778    335    959 --:--:-- --:--:-- --:--:--  1294
+!! Submission failed: Invalid email or token.
+octave:11> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): n
+Login (email address): deepankarsharma2003@gmail.com
+Token: IQsfAn7FMC8q4wTv
+mu =
+
+   10.4768    3.1621    1.7669
+
+sigma =
+
+   4.3714   0.7092   0.2054
+
+X_norm =
+
+  -7.019603  -1.302771  -0.403350
+  -6.280698  -1.113685  -0.335695
+  -5.541792  -0.940636  -0.276466
+  -4.802886  -0.780126  -0.223559
+  -4.063981  -0.629769  -0.175594
+  -3.325075  -0.487853  -0.131611
+  -2.586170  -0.353097  -0.090916
+  -1.847264  -0.224516  -0.052986
+  -1.108358  -0.101332  -0.017420
+  -0.369453   0.017082   0.016102
+   0.369453   0.131242   0.047832
+   1.108358   0.241574   0.077980
+   1.847264   0.348441   0.106719
+   2.586170   0.452150   0.134193
+   3.325075   0.552964   0.160525
+   4.063981   0.651114   0.185820
+   4.802886   0.746801   0.210169
+   5.541792   0.840200   0.233650
+   6.280698   0.931469   0.256332
+   7.019603   1.020747   0.278276
+
+X_norm =
+
+  -1.612479
+  -1.440606
+  -1.269400
+  -1.098713
+  -0.928444
+  -0.758521
+  -0.588890
+  -0.419512
+  -0.250353
+  -0.081387
+   0.087407
+   0.256046
+   0.424545
+   0.592917
+   0.761172
+   0.929321
+   1.097371
+   1.265329
+   1.433202
+   1.600996
+
+theta =
+
+  -120.8154
+     5.0642
+   -77.7337
+   185.6926
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2125  100  1347  100   778   1467    847 --:--:-- --:--:-- --:--:--  2314
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |  40 /  40 | Nice work!
+==         Gradient Descent (for One Variable) |  50 /  50 | Nice work!
+==                       Feature Normalization |   0 /   0 | Your answer is incorrect.
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Nice work!
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Nice work!
+==                            Normal Equations |   0 /   0 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+octave:12> submit()
+== Submitting solutions | Linear Regression with Multiple Variables...
+Use token from last successful submission (deepankarsharma2003@gmail.com)? (Y/n): y
+mu =
+
+   10.4768    3.1621    1.7669
+
+sigma =
+
+   4.3714   0.7092   0.2054
+
+X_norm =
+
+  -7.019603  -1.302771  -0.403350
+  -6.280698  -1.113685  -0.335695
+  -5.541792  -0.940636  -0.276466
+  -4.802886  -0.780126  -0.223559
+  -4.063981  -0.629769  -0.175594
+  -3.325075  -0.487853  -0.131611
+  -2.586170  -0.353097  -0.090916
+  -1.847264  -0.224516  -0.052986
+  -1.108358  -0.101332  -0.017420
+  -0.369453   0.017082   0.016102
+   0.369453   0.131242   0.047832
+   1.108358   0.241574   0.077980
+   1.847264   0.348441   0.106719
+   2.586170   0.452150   0.134193
+   3.325075   0.552964   0.160525
+   4.063981   0.651114   0.185820
+   4.802886   0.746801   0.210169
+   5.541792   0.840200   0.233650
+   6.280698   0.931469   0.256332
+   7.019603   1.020747   0.278276
+
+X_norm =
+
+  -1.605793  -1.837036  -1.963779
+  -1.436762  -1.570407  -1.634386
+  -1.267731  -1.326391  -1.346020
+  -1.098701  -1.100055  -1.088435
+  -0.929670  -0.888037  -0.854909
+  -0.760639  -0.687921  -0.640772
+  -0.591608  -0.497902  -0.442640
+  -0.422577  -0.316590  -0.257973
+  -0.253546  -0.142889  -0.084810
+  -0.084515   0.024087   0.078393
+   0.084515   0.185064   0.232878
+   0.253546   0.340644   0.379660
+   0.422577   0.491337   0.519579
+   0.591608   0.637576   0.653342
+   0.760639   0.779735   0.781544
+   0.929670   0.918136   0.904697
+   1.098701   1.053064   1.023243
+   1.267731   1.184766   1.137563
+   1.436762   1.313464   1.247994
+   1.605793   1.439355   1.354832
+
+theta =
+
+  -120.8154
+     5.0642
+   -77.7337
+   185.6926
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2448  100  1332  100  1116   1316   1102  0:00:01  0:00:01 --:--:--  2421
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |  40 /  40 | Nice work!
+==         Gradient Descent (for One Variable) |  50 /  50 | Nice work!
+==                       Feature Normalization |   0 /   0 | Nice work!
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Nice work!
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Nice work!
+==                            Normal Equations |   0 /   0 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+octave:13>
