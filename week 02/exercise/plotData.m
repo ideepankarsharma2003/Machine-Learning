@@ -23,5 +23,5 @@ figure; % open a new figure window
 % ============================================================
 xlabel('population')
 ylabel('revenue')
-using plot(x, y, 'rx', 'MarkerSize', 10);
+plot(x, y, 'rx', 'MarkerSize', 10);
 end
